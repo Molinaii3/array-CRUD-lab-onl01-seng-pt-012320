@@ -8,13 +8,10 @@ def create_an_array
 
 def add_element_to_end_of_array (array, element)
   ["wow", "I", "am", "really", "learning"] << "arrays!"
-  puts add_element_to_end_of_array.inspect
  end
 
 def add_element_to_start_of_array(array,element)
-  array = ["I", "am", "really", "learning", "arrays!"]
-  element = add_element_to_start_of_array.unshift ("wow")
- end
+  ["I", "am", "really", "learning", "arrays!"]
 
 def remove_element_from_end_of_array(array)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
