@@ -9,7 +9,7 @@ def create_an_array
 def add_element_to_start_of_array (array, element)
   ["I", "am", "really", "learning"]
   add_element_to_start_of_array << "wow"
-  puts add_element_to_start_of_array
+  puts add_element_to_start_of_array. inspect
  end
 
 def add_element_to_start_of_array(array,element)
