@@ -7,8 +7,7 @@ def create_an_array
  end
 
 def add_element_to_end_of_array (array, element)
-  ["I", "am", "really", "learning", add_element_to_end_of_array << "arrays!"]
-  
+  ["wow", "I", "am", "really", "learning"] << "arrays!"
   puts add_element_to_end_of_array.inspect
  end
 
